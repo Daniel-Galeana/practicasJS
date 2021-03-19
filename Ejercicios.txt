@@ -1,0 +1,17 @@
+0-Realiza una página que muestre la fecha y la hora actual en un reloj que se va actualizando.
+
+0-Realiza una página que muestre un slider de fotografias.
+
+0-Realiza una página que muestre una entrada protegida con password a un web.
+
+0-Realiza una página que muestre el mensaje “Hola a todos” en una ventana haciendo una llamada a una función JavaScript. 
+    Utilizar la función Alert().
+
+0-Realiza una página que contenga 3 cards centradas(x,y) con un alto de 100px y un ancho de 50px, con un espacio de 5px.
+
+0-Realiza una página que muestre un formulario, el siguiente formulario deberá tener: 
+    nombre completo, email, telefono y dos selects que contenga: sexo y roles.
+    - Todos los inputs son obligatorios
+    - El input telefono solo admite números y debe de ser mayor o igual a 10
+    - Los roles deben de ser: administrador, usuario, encargado
+    - El input email debe admitir un correo válido.

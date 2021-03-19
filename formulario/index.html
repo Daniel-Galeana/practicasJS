@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="">
+        <form class="form-f" name="form" action="success.html">
+            <input type="text" placeholder="Nombre completo" name="nombre" id="nombre">
+            <input type="email" placeholder="Email" name="correo" id="correo">
+            <span id="emailOK"></span>
+            <input type="text" placeholder="Teléfono" name="tel" id="tel">
+            <select name="sexo" id="">
+                <option value="hombre" selected>Hombre</option>
+                <option value="mujer">Mujer</option>
+            </select>
+            <select name="roles" id="">
+                <option value="usuario" selected>Usuario</option>
+                <option value="encargado">Encargado</option>
+                <option value="administrador">Administrador</option>
+            </select>
+            <br>
+            <input onclick="validar()" type="button" value="Validar"> 
+        </form>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

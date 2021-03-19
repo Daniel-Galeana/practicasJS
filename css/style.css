@@ -1,0 +1,135 @@
+.body_pass{
+    background: #5C5B61;
+}
+.texto{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* CSS para reloj*/
+.reloj{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Fin de CSS para reloj */
+/* Inicio de CSS para password */
+.container{
+    text-align: center;
+    border: 2px solid black;
+    padding: 80px 20px;
+    margin: auto;
+    margin-top: 220px;
+    height: 30%;
+    width: 20%;
+    background: floralwhite;
+}
+.container form input{
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: #F2F2F2;
+    
+}
+.container h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+/* FIN de CSS para password */
+
+/* Inicio de CSS para cards */
+.div_container{
+    text-align: center;
+}
+.div_1{
+    margin-left: 42%;
+    margin-right: 5px;
+    float: left;
+    border: 2px solid black;
+    margin-top: 300px;
+    height: 100px;
+    width: 50px;
+}
+.div_2{
+    float: left;
+    border: 2px solid black;
+    margin-top: 300px;
+    margin-right: 5px;
+    height: 100px;
+    width: 50px;
+}
+.div_3{
+    float: left;
+    border: 2px solid black;
+    margin-top: 300px;
+    height: 100px;
+    width: 50px;
+}
+/* FIN de CSS para cards */
+/* CSS para Slider */
+
+
+.slide-container{
+    max-width: 1000px;
+    position:relative;
+    margin:auto;
+    padding-top: 90px;
+   }
+   .slide{
+    
+    display:none;
+   }
+   .slide img{
+    width: 100%;
+   }
+.prev,.next{
+ cursor:pointer;
+ position:absolute;
+ top:50%;
+ width:auto;
+ padding:16px;
+ color:white;
+ font-weight:bold;
+ font-size:32px;
+ transition:0.6s ease;
+ border-radius:0 3px 3px 0;
+}
+.next{
+    right:0;
+    border-radius:3px 0 0 3px;
+   }
+.prev:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+   }
+   .fade{
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:1.5s;
+    animation-name:fade;
+    animation-duration:1.5s;
+   }
+   
+   @-webkit-keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+   }
+   
+   @keyframes fade{
+    from{opacity:.4}
+    to{opacity:1}
+   }
+/* FIN de CSS para Slider */
+
+/* CSS para Formulario */
+.form-f{
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+input, textarea{
+    padding: 8px;
+}
+
+/* FIN de CSS para Formulario */
